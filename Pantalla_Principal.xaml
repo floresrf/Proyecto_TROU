@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_TROU.MainPage"
+             BackgroundColor="#777">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label 
+                FontSize="35"
+                FontAttributes="Bold"     
+                FontFamily="sans-serif-black"
+                HorizontalTextAlignment="Center"
+                Text="Hola Usuario"/>
+            <Label 
+                FontSize="32"
+                FontAttributes="Bold"
+                FontFamily="sans-serif-black"
+                HorizontalTextAlignment="Center"
+                Text="Estado Actual"/>
+            <Label 
+                FontSize="32"
+                TextColor="#f00"
+                FontAttributes="Bold"
+                FontFamily="sans-serif-black"
+                HorizontalTextAlignment="Center"
+                Text="Cerrado"/>
+            <Button
+                CornerRadius="75"
+                WidthRequest="150"
+                HeightRequest="150"
+                BackgroundColor="#fff"
+                SemanticProperties.Hint="Counts the number of times you click"
+                HorizontalOptions="Fill" />
+            <Rectangle
+                Margin="130"
+                Fill="#ccc"                
+                RadiusX="30"
+                WidthRequest="400"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
